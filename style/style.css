@@ -1,0 +1,148 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.subtext {
+    text-align: center;
+    color: #666;
+}
+
+.form-group {
+        margin-bottom: 20px;
+        text-align: center;
+}
+
+.username {
+    background-image: url('/resources/user.png');
+}
+
+.email {
+    background-image: url('email-icon.png');
+}
+
+.password {
+    background-image: url('password-icon.png');
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.btn {
+    display: block; /* Change display to block */
+    margin: 0 auto; /* Set left and right margins to auto to center horizontally */
+    width: 95%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+.long-page-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #666;
+    text-decoration: none;
+}
+
+.long-page-link:hover {
+    text-decoration: underline;
+}
+/* Keep existing styles */
+
+.input-icon {
+    display: inline-block; /* Display the icon as inline-block */
+    width: 30px; /* Adjust width of the icon container */
+    text-align: center; /* Center the icon horizontally */
+}
+
+.input-icon img {
+    width: 100%; /* Make the icon fill its container */
+}
+
+.form-group {
+    position: relative; /* Make the form group position relative for absolute positioning of the icon */
+}
+
+.input-icon {
+    position: absolute; /* Position the icon absolutely */
+    top: 50%; /* Align the icon vertically in the middle */
+    transform: translateY(-50%); /* Adjust vertical alignment */
+    left: 10px; /* Adjust left position of the icon */
+}
+/* Keep existing styles */
+
+.social-links {
+    margin-top: 20px;
+    text-align: center; /* Center the buttons horizontally */
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #4e79a7, #2c4a63); /* Adjust the colors as needed */
+    align-items: center; /* Center the content vertically */
+}
+
+.social-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
