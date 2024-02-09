@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 , pre , h3 {
+    text-align: center;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #131E3A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+nav a:hover {
+    background-color: #ddd;
+}
+section {
+    padding: 20px;
+}
+.laptop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.laptop-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+.laptop-item img {
+    max-width: 100%;
+    height: auto;
+}
+.computer img
+{
+    
+    align-items : center;
+    align-content: center;
+    align-self: center;
+}
+caption {
+    display: table-caption;
+    text-align: left;
+    font-size : 30px;
+    text-size-adjust: 100;
+  }
+  .center-left
+  {
+    position: absolute;
+  top: 40%;
+  left:60px;
+  color: white;
+  }
+  .center-right
+  {
+    position: absolute;
+  top: 40%;
+  right:60px;
+  color: white;
+  }
+  #firstbutton
+  {
+    position: absolute;
+    top: 65%;
+  left:60px;
+  background-color: white;
+  color:black;
+  width: 100px;
+  height: 30px;
+  }
+  #thirdtbutton
+  {
+    position: absolute;
+    top: 65%;
+  right:60px;
+  background-color: white;
+  color:black;
+  width: 100px;
+  height: 30px;
+  }
+
+  button
+  {
+    background-color: black;
+    color: #ccc;
+    width: 100px;
+    height: 30px;
+  }
+  pre
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+  }
+  .priceSize
+  {
+    font-size: 25px;
+    color: #f56157;
+  }
+  #fontmobile
+  {
+    position: absolute;
+  top: 40%;
+  left:1000px;
+  font-size: 70px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #fontmobileh
+  {
+    position: absolute;
+  top: 50%;
+  left:1100px;
+  color: white;
+  font-size: 20px;
+  }
+  #accessorios
+  {
+    position: absolute;
+  top: 40%;
+  left:100px;
+  color :"black";
+   font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+   font-size: 70px;
+  }
+  #headphoneheade
+  {
+    position: absolute;
+    top: 40%;
+   left:100px;
+   color :white;
+   font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+   font-size: 70px;
+  }
