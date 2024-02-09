@@ -3,33 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Create Account</h1>
-        <p class="subtext">Complete the form to create an account and access the website.</p>
+        <h1>Login</h1>
         <form action="#" method="post">
             <div class="form-group">
-                <span class="input-icon"><img src="/resources/user.png" alt="Username Icon"></span>
-                <input type="text" name="username" placeholder="Username" required>
-            </div>
-            <div class="form-group">
-                <span class="input-icon"><img src="/resources/email.png" alt="Email Icon"></span>
+                <span class="input-icon"><i class="fas fa-envelope"></i></span>
                 <input type="email" name="email" placeholder="Email" required>
             </div>
             <div class="form-group">
-                <span class="input-icon"><img src="/resources/password.png" alt="Password Icon"></span>
+                <span class="input-icon"><i class="fas fa-lock"></i></span>
                 <input type="password" name="password" placeholder="Password" required>
             </div>
-            <button type="submit" class="btn" a="">Register</button>
+            <button type="submit">Login</button>
         </form>
-        <div class="social-links">
-            <a href="#" class="social-btn"><img src="/resources/facebook.png" alt="Facebook Icon">Register with Facebook</a>
-            <a href="#" class="social-btn"><img src="/resources/google.png" alt="Google Icon">Register with Google</a>
-        </div>
-        <a href="#" class="long-page-link">Terms and Conditions</a>
+        <h5>Don't have an account? <a href="/pages/registration.html" class="long-page-link">Register</a></h5>
     </div>
 </body>
 </html>
