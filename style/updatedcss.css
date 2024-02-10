@@ -79,6 +79,7 @@ h1, h5 {
 
 input[type="text"],
 input[type="email"],
+input[type="password"],
 textarea {
     width: 70%;
     padding: 10px;
@@ -87,13 +88,23 @@ textarea {
     border-radius: 5px;
 }
 
+td input[type="text"],
+td input[type="email"],
+td input[type="password"],
+textarea {
+    width: 250px;
+    padding: 10px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
 .input-icon {
     margin-right:10px;
 }
 
-td .input-icon {
-    margin-right: -15px;
-}
 
 .btn {
     display: block;
@@ -259,5 +270,28 @@ iframe {
     margin-bottom: 5px;
 }
 
+.social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom, #4e79a7, #2c4a63);
+    align-items: center;
+}
+
+.social-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 /* Your additional styles */
 /* Add your custom styles below this line */
