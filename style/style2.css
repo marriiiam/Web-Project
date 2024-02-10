@@ -70,7 +70,7 @@ caption {
   .center-left
   {
     position: absolute;
-  top: 40%;
+  top: 30%;
   left:60px;
   color: white;
   }
@@ -121,18 +121,18 @@ caption {
   }
   #fontmobile
   {
-    position: absolute;
-  top: 40%;
-  left:1000px;
+    position: relative;
+  top: -250px;
+  left:800px;
   font-size: 70px;
   color: white;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   #fontmobileh
   {
-    position: absolute;
-  top: 50%;
-  left:1100px;
+    position: relative;
+  top: -240px;
+  left:800px;
   color: white;
   font-size: 20px;
   }

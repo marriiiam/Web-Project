@@ -39,7 +39,7 @@ h1 {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    left: 10px;
+    left: 10%;
 }
 
 .input-icon img {
@@ -51,7 +51,8 @@ input[type="email"],
 input[type="password"] {
     display: flex;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 50%;
+    
     width: 85%;
     padding: 10px;
     border: 1px solid #ccc;
