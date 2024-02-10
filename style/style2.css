@@ -63,7 +63,7 @@ section {
 }
 caption {
     display: table-caption;
-    text-align: left;
+    text-align: center;
     font-size : 30px;
     text-size-adjust: 100;
   }
@@ -71,7 +71,7 @@ caption {
   {
     position: absolute;
   top: 30%;
-  left:60px;
+  left:195px;
   color: white;
   }
   .center-right
@@ -140,10 +140,10 @@ caption {
   {
     position: absolute;
   top: 40%;
-  left:100px;
+  left:150px;
   color :"black";
    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
-   font-size: 70px;
+   font-size: 60px;
   }
   #headphoneheade
   {

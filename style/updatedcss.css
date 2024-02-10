@@ -68,7 +68,7 @@ h1, h5 {
 
 .subtext {
     text-align: center;
-    color: #666;
+    color: #333;
 }
 
 .form-group {
@@ -210,8 +210,9 @@ textarea {
 
 /* Caption text */
 .text {
-    color: #f2f2f2;
-    font-size: 15px;
+    color: #928181;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
@@ -229,7 +230,7 @@ textarea {
 }
 
 iframe {
-    width: 0vw;
+    width: 100vw;
     height: 70vh; /* Adjust the height as needed */
     margin: 0 auto; /* Center the iframe horizontally */
     display: block;
@@ -238,7 +239,7 @@ iframe {
 
 .sidebar {
     margin-top: -20px;
-    width: 120px;
+    width: 135px;
     height: 100%;
     background-color: #333;
     position: fixed;
@@ -267,7 +268,7 @@ iframe {
 }
 
 .sidebar a i {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .social-links {
@@ -295,3 +296,41 @@ iframe {
 }
 /* Your additional styles */
 /* Add your custom styles below this line */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
